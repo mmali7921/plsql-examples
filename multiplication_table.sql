@@ -1,0 +1,12 @@
+DECLARE
+    A NUMBER := &ENTER_THE_NO;
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('MULTIPLICTION TABLE OF' || A); 
+    FOR I IN 1..10 LOOP
+    DBMS_OUTPUT.PUT_LINE(I ||'*'|| A || '='|| ( I * A ));
+    END LOOP;
+END;    
+/
+    
+
+    
